@@ -1,0 +1,20 @@
+.header {
+  background-color: var(--bg-dark);
+}
+
+.header-title-container {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-title {
+  font-size: 1.175rem;
+  font-weight: bold;
+  cursor: default;
+  color: var(--color-font-primary);
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="title" content="Agenda Telefónica" />
+    <meta
+      name="description"
+      content="A melhor agenda com um designer simples para você salvar seus contatos."
+    />
+    <meta
+      name="keywords"
+      content="agenda, html, css, js, javascript, telefone, agenda telefónica"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="pt-BR" />
+    <meta name="author" content="Lucas Camargo Stivan" />
+
+    <link rel="shortcut icon" href="images/livro.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Agenda telefónica</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="container header-title-container">
+        <h1 class="header-title">Agenda Telefónica</h1>
+
+        <p class="header-title">
+          <a
+            href="https://github.com/lucas3k"
+            target="_blank"
+            aria-label="abrir github"
+            >Lucas C. Stivan</a
+          >
+        </p>
+      </section>
+    </header>
+
+    <section class="container notebook">
+      <section class="notebook-title-container">
+        <h2 class="notebook-title" data-title="title-notebook">Novo contato</h2>
+      </section>
+
+      <section class="notebook-content">
+        <form class="notebook-form">
+          <section class="group-input-btn">
+            <section class="container-input">
+              <input
+                required
+                type="text"
+                class="notebook-form-input"
+                id="name"
+                autofocus
+                data-input-notebook="name"
+              />
+              <label for="name">Nome</label>
+            </section>
+
+            <section class="container-input">
+              <input
+                required
+                type="text"
+                class="notebook-form-input"
+                id="phone"
+                data-input-notebook="phone"
+                maxlength="11"
+              />
+              <label for="phone">Telefone</label>
+            </section>
+
+            <button
+              class="notebook-form-button"
+              type="submit"
+              data-btn="notebook-submit"
+            >
+              Adicionar
+            </button>
+          </section>
+        </form>
+      </section>
+    </section>
+
+    <section class="content container">
+      <section class="content-list">
+        <ul data-list="insert-list"></ul>
+      </section>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
