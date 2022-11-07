@@ -1,4 +1,4 @@
-# Agenda telefónica
+# Agenda telefônica
 
 ## Descrição
 
@@ -11,4 +11,4 @@ Uma aplicação front-end feita com HTML, CSS e JavaScript que permite ao usuár
 - Excluir contato
 - Listagem contatos
 
-![imagem da agenda telefónica](images/ilustracao.png)
+![imagem da agenda telefônica](images/ilustracao.png)
